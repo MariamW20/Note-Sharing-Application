@@ -6,7 +6,7 @@ A modern note-taking app built for people who love writing in markdown. Share yo
 
 
 
-##A modern note-taking app built for people who love writing in markdown. Share your thoughts, organize your ideas, and keep everything in one place.
+A modern note-taking app built for people who love writing in markdown. Share your thoughts, organize your ideas, and keep everything in one place.
 
 
 
