@@ -1,168 +1,338 @@
-# NoteShare - Modern Note-Taking App# Note-Sharing Application
+# Note-Sharing Application# NoteShare - Modern Note-Taking App# Note-Sharing Application
 
 
 
-A beautiful, full-stack note-taking application with markdown support, real-time preview and an enhanced user experience.A full-stack note-sharing application built with Node.js backend and React frontend, featuring user authentication, markdown support and real-time search.
+A full-stack note-sharing application built with Node.js backend and Next.js frontend, featuring user authentication, markdown support and real-time search.
 
 
 
-## 🚀 Features## Features
+## 🚀 Features# Note-Sharing Application
 
 
 
-- **📝 Markdown Support** - Write notes with full markdown syntax### Backend (Node.js + Express)
+- **📝 Markdown Support** - Write notes with full markdown syntaxA full-stack note-sharing application built with Node.js backend and Next.js frontend, featuring user authentication, markdown support and real-time search.
 
-- **👁️ Real-time Preview** - Instantly see how your notes look- JWT-based authentication (register/login)
+- **👁️ Real-time Preview** - Instantly see how your notes look
 
-- **🔍 Smart Search** - Quickly find notes by title or content- RESTful API for note management
+- **🔍 Smart Search** - Quickly find notes by title or content
 
-- **💾 Auto-save** - Your changes are saved automatically- In-memory database using JavaScript Maps
+- **💾 Auto-save** - Your changes are saved automatically
 
-- **🎨 Modern UI** - Clean, responsive design with smooth animations- Search functionality across notes
+- **🎨 Modern UI** - Clean, responsive design with smooth animations## 🚀 Features## Features
 
-- **📱 Mobile Friendly** - Works great on all devices- User-specific note isolation
+- **📱 Mobile Friendly** - Works great on all devices
 
 - **🔐 User Authentication** - Secure login and registration
 
-### Frontend (React + Vite)
 
-## 📁 Project Structure- Modern, dark-themed UI inspired by documentation sites
 
-- User authentication with protected routes
+## 📁 Project Structure- **📝 Markdown Support** - Write notes with full markdown syntax### Backend (Node.js + Express)
 
-```- Rich markdown editor with live preview
 
-note-sharing-app/- Real-time search across all notes
 
-├── backend/           # Express.js API server- Responsive design for mobile and desktop
+```- **👁️ Real-time Preview** - Instantly see how your notes look- JWT-based authentication (register/login)
 
-│   ├── server.js      # Main server file- Keyboard shortcuts (Ctrl/Cmd + S to save)
+note-sharing-application/
 
-│   ├── db/            # Database configuration- Word and character count
+├── backend/           # Express.js API server- **🔍 Smart Search** - Quickly find notes by title or content- RESTful API for note management
+
+│   ├── server.js      # Main server file
+
+│   ├── db/            # Database configuration- **💾 Auto-save** - Your changes are saved automatically- In-memory database using JavaScript Maps
 
 │   ├── middleware/    # Authentication middleware
 
-│   └── routes/        # API routes (auth, notes)## Project Structure
+│   └── routes/        # API routes (auth, notes)- **🎨 Modern UI** - Clean, responsive design with smooth animations- Search functionality across notes
 
 │
 
+├── frontend/          # Next.js application- **📱 Mobile Friendly** - Works great on all devices- User-specific note isolation
+
+│   ├── app/           # Next.js app router pages
+
+│   ├── components/    # React components- **🔐 User Authentication** - Secure login and registration
+
+│   ├── lib/           # Utility functions
+
+│   └── styles/        # Global styles### Frontend (React + Vite)
+
+│
+
+└── README.md          # This file## 📁 Project Structure- Modern, dark-themed UI inspired by documentation sites
+
+```
+
+- User authentication with protected routes
+
+## 🛠️ Tech Stack
+
+```- Rich markdown editor with live preview
+
+### Frontend
+
+- **Next.js 15** - React framework with App Routernote-sharing-app/- Real-time search across all notes
+
+- **TypeScript** - Type-safe code
+
+- **Tailwind CSS** - Utility-first styling├── backend/           # Express.js API server- Responsive design for mobile and desktop
+
+- **Radix UI** - Accessible component primitives
+
+- **Lucide React** - Beautiful icons│   ├── server.js      # Main server file- Keyboard shortcuts (Ctrl/Cmd + S to save)
+
+- **Marked** - Markdown parser
+
+- **DOMPurify** - XSS protection│   ├── db/            # Database configuration- Word and character count
+
+
+
+### Backend│   ├── middleware/    # Authentication middleware
+
+- **Node.js** - JavaScript runtime
+
+- **Express** - Web framework│   └── routes/        # API routes (auth, notes)## Project Structure
+
+- **JWT** - Authentication
+
+- **bcryptjs** - Password hashing│
+
+- **CORS** - Cross-origin resource sharing
+
 ├── frontend/          # Next.js application\`\`\`
+
+## 🚀 Getting Started
 
 │   ├── app/           # Next.js app router pagesnote-sharing-app/
 
+### Prerequisites
+
 │   ├── components/    # React components├── backend/
 
-│   ├── lib/           # Utility functions│   ├── db/
+- Node.js 18+ installed
 
-│   └── styles/        # Global styles│   │   └── index.js          # In-memory database
+- npm or pnpm package manager│   ├── lib/           # Utility functions│   ├── db/
 
-││   ├── middleware/
 
-└── README.md          # This file│   │   └── auth.js           # JWT authentication
 
-```│   ├── routes/
+### Installation│   └── styles/        # Global styles│   │   └── index.js          # In-memory database
+
+
+
+1. **Clone the repository**││   ├── middleware/
+
+
+
+   ```bash└── README.md          # This file│   │   └── auth.js           # JWT authentication
+
+   git clone https://github.com/MariamW20/note-sharing-application.git
+
+   cd note-sharing-application```│   ├── routes/
+
+   ```
 
 │   │   ├── auth.js           # Auth endpoints
 
+2. **Install dependencies**
+
 ## 🛠️ Tech Stack│   │   └── notes.js          # Notes endpoints
 
-│   ├── server.js             # Express server
+   **Backend:**
 
-### Frontend│   └── package.json
+   ```bash│   ├── server.js             # Express server
+
+   cd backend
+
+   npm install### Frontend│   └── package.json
+
+   ```
 
 - **Next.js 15** - React framework with App Router│
 
-- **TypeScript** - Type-safe code└── frontend/
+   **Frontend:**
 
-- **Tailwind CSS** - Utility-first styling    ├── src/
+   ```bash- **TypeScript** - Type-safe code└── frontend/
 
-- **Radix UI** - Accessible component primitives    │   ├── components/
+   cd ../frontend
+
+   npm install- **Tailwind CSS** - Utility-first styling    ├── src/
+
+   # or
+
+   pnpm install- **Radix UI** - Accessible component primitives    │   ├── components/
+
+   ```
 
 - **Lucide React** - Beautiful icons    │   │   ├── Header.jsx
 
+### Running the Application
+
 - **Marked** - Markdown parser    │   │   ├── NotesList.jsx
+
+1. **Start the backend server**
 
 - **DOMPurify** - XSS protection    │   │   ├── NoteEditor.jsx
 
-    │   │   └── MarkdownPreview.jsx
+   ```bash
 
-### Backend    │   ├── context/
+   cd backend    │   │   └── MarkdownPreview.jsx
 
-- **Node.js** - JavaScript runtime    │   │   └── AuthContext.jsx
+   npm run dev
 
-- **Express** - Web framework    │   ├── pages/
+   ```### Backend    │   ├── context/
 
-- **JWT** - Authentication    │   │   ├── Login.jsx
 
-- **bcryptjs** - Password hashing    │   │   ├── Register.jsx
 
-- **CORS** - Cross-origin resource sharing    │   │   └── Dashboard.jsx
+   The API server will run on `http://localhost:3001`- **Node.js** - JavaScript runtime    │   │   └── AuthContext.jsx
+
+
+
+2. **Start the frontend (in a new terminal)**- **Express** - Web framework    │   ├── pages/
+
+
+
+   ```bash- **JWT** - Authentication    │   │   ├── Login.jsx
+
+   cd frontend
+
+   npm run dev- **bcryptjs** - Password hashing    │   │   ├── Register.jsx
+
+   # or
+
+   pnpm dev- **CORS** - Cross-origin resource sharing    │   │   └── Dashboard.jsx
+
+   ```
 
     │   ├── styles/
 
+   The app will be available at `http://localhost:3000`
+
 ## 🚀 Getting Started    │   │   ├── auth.css
+
+## 📝 Usage
 
     │   │   ├── dashboard.css
 
-### Prerequisites    │   │   └── markdown.css
+1. **Register** - Create a new account
 
-    │   ├── App.jsx
+2. **Login** - Sign in with your credentials### Prerequisites    │   │   └── markdown.css
 
-- Node.js 18+ installed    │   ├── main.jsx
+3. **Create Notes** - Click "New Note" to start writing
 
-- npm or pnpm package manager    │   └── index.css
+4. **Edit Notes** - Click on any note to edit it    │   ├── App.jsx
 
-    └── package.json
+5. **Search** - Use the search bar to find specific notes
 
-### Installation\`\`\`
+6. **Delete** - Hover over a note and click the trash icon- Node.js 18+ installed    │   ├── main.jsx
 
 
 
-1. **Clone the repository**## Installation & Setup
+## 🎨 Enhanced UX Features- npm or pnpm package manager    │   └── index.css
 
-   ```bash
 
-   git clone <repository-url>### Backend Setup
 
-   cd note-sharing-app
+- ✨ **Smooth Animations** - Fade-in effects and transitions    └── package.json
 
-   ```\`\`\`bash
+- 🔄 **Loading States** - Visual feedback during operations
 
-cd backend
+- 💫 **Hover Effects** - Interactive button and card animations### Installation\`\`\`
 
-2. **Install dependencies**npm install
+- 📊 **Live Word Count** - Track your writing progress
 
-npm run dev
+- 🎯 **Auto-save Indicator** - See when your work is saved
 
-   **Backend:**\`\`\`
+- 📱 **Responsive Sidebar** - Mobile-optimized navigation
 
-   ```bash
+- 🎭 **Gradient Accents** - Modern visual design1. **Clone the repository**## Installation & Setup
 
-   cd backendThe backend server will run on `http://localhost:3001`
+
+
+## 🔧 Development   ```bash
+
+
+
+### Backend Scripts   git clone <repository-url>### Backend Setup
+
+- `npm start` - Run production server
+
+- `npm run dev` - Run with auto-reload   cd note-sharing-app
+
+
+
+### Frontend Scripts   ```\`\`\`bash
+
+- `npm run dev` - Development server
+
+- `npm run build` - Build for productioncd backend
+
+- `npm start` - Run production build
+
+- `npm run lint` - Run ESLint2. **Install dependencies**npm install
+
+
+
+## 📦 Building for Productionnpm run dev
+
+
+
+1. **Build the frontend**   **Backend:**\`\`\`
+
+
+
+   ```bash   ```bash
+
+   cd frontend
+
+   npm run build   cd backendThe backend server will run on `http://localhost:3001`
+
+   ```
 
    npm install
 
+2. **Run the production server**
+
    ```### Frontend Setup
 
+   ```bash
 
+   npm start
+
+   ```
 
    **Frontend:**\`\`\`bash
 
+## 🤝 Contributing
+
    ```bashcd frontend
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
    cd ../frontendnpm install
 
+## 📄 License
+
    npm installnpm run dev
+
+This project is licensed under the MIT License.
 
    # or\`\`\`
 
+## 🌟 Acknowledgments
+
    pnpm install
 
-   ```The frontend app will run on `http://localhost:3000`
+- Built with modern web technologies
+
+- Designed for optimal user experience   ```The frontend app will run on `http://localhost:3000`
+
+- Open source and free to use
 
 
+
+---
 
 ### Running the Application## API Endpoints
+
+**Enjoy taking notes!** 📝✨
 
 
 
