@@ -1,4 +1,4 @@
-# NoteShare# Note-Sharing Application# Note-Sharing Application NoteShare - Modern Note-Taking App Note-Sharing Application
+Modern Note-Taking and Note-Sharing Application
 
 
 
@@ -6,7 +6,7 @@ A modern note-taking app built for people who love writing in markdown. Share yo
 
 
 
-## What is this?A full-stack note-sharing application built with Node.js backend and Next.js frontend, featuring user authentication, markdown support, and real-time search.
+A full-stack note-sharing application built with Node.js backend and Next.js frontend, featuring user authentication, markdown support, and real-time search.
 
 
 
@@ -14,7 +14,7 @@ I built this because I wanted a simple, clean way to take notes online without a
 
 
 
-## Cool features## 🚀 Features A full-stack note-sharing application, featuring user authentication, markdown support and real-time search.
+## 🚀 Features
 
 
 
@@ -54,7 +54,7 @@ The project is split into two main parts:- **🎨 Modern UI** - Clean, responsiv
 
 
 
-**Frontend** (Next.js + React)## 📁 Project Structure- **👁️ Real-time Preview** - Instantly see how your notes look
+**Frontend** (Next.js + React) Project Structure- **👁️ Real-time Preview** - Instantly see how your notes look
 
 - Modern React app with the Next.js 15 App Router
 
@@ -126,11 +126,11 @@ cd backend```
 
 npm run dev
 
-``````- **👁️ Real-time Preview** - Instantly see how your notes look- JWT-based authentication (register/login)
+``````- ** Real-time Preview** - Instantly see how your notes look- JWT-based authentication (register/login)
 
 
 
-The API will be running at `http://localhost:3001`## 🛠️ Tech Stack
+The API will be running at `http://localhost:3001`##  Tech Stack
 
 
 
@@ -202,7 +202,7 @@ Open your browser to `http://localhost:3000` and you're good to go!- **TypeScrip
 
 ## Tech stack
 
-## 🚀 Getting Started
+## Getting Started
 
 I used modern tools that I enjoy working with:
 
@@ -454,7 +454,7 @@ This project is licensed under the MIT License.
 
    ```
 
-**Enjoy taking notes!** 📝✨
+**Enjoy taking notes!** 
 
 - **Lucide React** - Beautiful icons    │   │   ├── Header.jsx
 
@@ -626,7 +626,7 @@ This project is licensed under the MIT License.
 
 ### Running the Application## API Endpoints
 
-**Enjoy taking notes!** 📝✨
+**Enjoy taking notes!**
 
 
 
@@ -680,27 +680,27 @@ This project is licensed under the MIT License.
 
 - Axios
 
-## 🎨 Enhanced UX Features- Marked (Markdown parser)
+##  Enhanced UX Features- Marked (Markdown parser)
 
 - DOMPurify (XSS protection)
 
-- ✨ **Smooth Animations** - Fade-in effects and transitions- Vite
+-  **Smooth Animations** - Fade-in effects and transitions- Vite
 
-- 🔄 **Loading States** - Visual feedback during operations
+-  **Loading States** - Visual feedback during operations
 
-- 💫 **Hover Effects** - Interactive button and card animations## Features in Detail
+-  **Hover Effects** - Interactive button and card animations## Features in Detail
 
-- 📊 **Live Word Count** - Track your writing progress
+-  **Live Word Count** - Track your writing progress
 
-- 🎯 **Auto-save Indicator** - See when your work is saved### Markdown Support
+-  **Auto-save Indicator** - See when your work is saved### Markdown Support
 
-- 📱 **Responsive Sidebar** - Mobile-optimized navigationThe editor supports full GitHub Flavored Markdown including:
+- **Responsive Sidebar** - Mobile-optimized navigationThe editor supports full GitHub Flavored Markdown including:
 
-- 🎭 **Gradient Accents** - Modern visual design- Headers (H1-H6)
+-  **Gradient Accents** - Modern visual design- Headers (H1-H6)
 
 - Bold, italic, strikethrough
 
-## 🔧 Development- Lists (ordered and unordered)
+## Development- Lists (ordered and unordered)
 
 - Code blocks and inline code
 
@@ -724,7 +724,7 @@ This project is licensed under the MIT License.
 
 - Password hashing with bcrypt
 
-## 📦 Building for Production- JWT token authentication
+## Building for Production- JWT token authentication
 
 - XSS protection with DOMPurify
 
@@ -750,7 +750,7 @@ This project is licensed under the MIT License.
 
 
 
-## 🤝 ContributingMIT
+##  ContributingMIT
 
 \`\`\`
 
@@ -766,7 +766,7 @@ This project is licensed under the MIT License.<AssistantMessageContentPart part
 
 
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 
 
@@ -777,4 +777,4 @@ This project is licensed under the MIT License.<AssistantMessageContentPart part
 
 ---
 
-**Enjoy taking notes!** 📝✨
+**Enjoy taking notes!** 
