@@ -22,7 +22,7 @@ I built this because I wanted a simple, clean way to take notes online without a
 
 - **Live preview** - Watch your notes come to life as you type
 
-- **Quick search** - Find any note instantly by searching through titles and contentI built this because I wanted a simple, clean way to take notes online without all the bloat. It's a full-stack web app where you can write notes in markdown, see a live preview, and have everything automatically saved. Plus, it's just for you - every user has their own private space.
+- **Quick search** - Find any note instantly by searching through titles and contentI built this because I wanted a simple, clean way to take notes online without all the bloat. It's a full-stack web app where you can write notes in markdown, see a live preview and have everything automatically saved. Plus, it's just for you - every user has their own private space.
 
 - **Auto-save** - Never lose your work, everything saves automatically
 
@@ -30,7 +30,7 @@ I built this because I wanted a simple, clean way to take notes online without a
 
 - **Dark theme** - Easy on the eyes with a modern dark UI
 
-- **Fast and smooth** - Nice animations and transitions that don't get in the way## 🚀 Features
+- **Fast and smooth** - Nice animations and transitions that don't get in the way 
 
 
 
@@ -62,7 +62,7 @@ The project is split into two main parts:- **Markdown everywhere** - Write natur
 
 - Tailwind CSS for styling
 
-- Rich component library from Radix UI- **Fast and smooth** - Nice animations and transitions that don't get in the way- **🔍 Smart Search** - Quickly find notes by title or content## 🚀 Features of the Note-Sharing Application
+- Rich component library from Radix UI- **Fast and smooth** - Nice animations and transitions that don't get in the way- **🔍 Smart Search** - Quickly find notes by title or content
 
 - Markdown rendering with syntax highlighting
 
