@@ -1,4 +1,4 @@
-# NoteShare### Modern Note-Taking and Note-Sharing Application
+# NoteShare Modern Note-Taking and Note-Sharing Application
 
 
 
@@ -6,7 +6,7 @@ A modern note-taking app built for people who love writing in markdown. Share yo
 
 
 
-## What is this?A modern note-taking app built for people who love writing in markdown. Share your thoughts, organize your ideas, and keep everything in one place.
+##A modern note-taking app built for people who love writing in markdown. Share your thoughts, organize your ideas, and keep everything in one place.
 
 
 
@@ -14,7 +14,7 @@ I built this because I wanted a simple, clean way to take notes online without a
 
 
 
-## Cool featuresA full-stack note-sharing application built with Node.js backend and Next.js frontend, featuring user authentication, markdown support, and real-time search.
+## Cool features
 
 
 
